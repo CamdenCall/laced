@@ -1,0 +1,24 @@
+#__next {
+  display: flex;
+}
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+  border-radius: 50px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255, 0.1);
+  border: 6px solid #000;
+  border-radius: 50px;
+}
+
+@media screen and (max-width: 991px) {
+  #__next {
+    flex-direction: column;
+  }
+}

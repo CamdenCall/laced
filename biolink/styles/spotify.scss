@@ -1,0 +1,21 @@
+.spotify-container {
+    height: auto;
+    background-color: #151515;
+    height: 78px;
+    width: 450px;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    overflow: hidden;
+
+    iframe {
+        mix-blend-mode: hard-light;
+        width: 101%;
+        margin-left: -0.5%;
+        border: none;
+        height: 90px;
+    }
+}
+.spotify-container:hover {
+    border: 1px solid #2e2e2e;
+    transition: border ease-in-out 0.15s;
+}

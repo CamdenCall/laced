@@ -1,0 +1,28 @@
+- Disable scroll
+useEffect(() => {
+    const component = document.getElementById("dropdownPopup");
+    const checkDisplayStyle = () => {
+      if (component && window.getComputedStyle(component).display === 'flex') {
+        document.body.style.overflowY = 'hidden';
+      } else {
+        document.body.style.overflowY = '';
+      }
+    };
+
+    checkDisplayStyle();
+
+    const observer = new MutationObserver(() => {
+      checkDisplayStyle();
+    });
+
+    observer.observe(component, { attributes: true, attributeFilter: ['style', 'class'] });
+
+    return () => {
+      observer.disconnect();
+      document.body.style.overflowY = '';
+    };
+  }, []);
+
+=====
+
+- Check socials widget update dropdown (set id the same as add new social)

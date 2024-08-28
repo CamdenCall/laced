@@ -1,0 +1,47 @@
+.socials-section {
+    display: flex;
+    justify-content:start;
+    align-items: flex-start;
+    gap: 10px;
+    flex-direction: column;
+    flex: 1;
+    .socials {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        row-gap: 10px;
+        column-gap: 10px;
+        width: 100%;
+        a{
+            text-decoration: none;
+            flex: 1;
+            min-width: 450px;
+        }
+        .social {
+            display: flex;
+            padding: 12.5px 15px;
+            justify-content: space-between;
+            border-radius: 10px;
+            border: 1px solid var(--border);
+            background: var(--card-bg);
+            font-size: 16px;
+            color: white;
+            font-family: "Consolas";
+            transition: border ease-out 0.15s;
+            box-sizing: border-box;
+            max-width: 450px;
+            div {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-shrink: 0;
+                gap: 10px;
+            }
+        }
+        .social:hover {
+            cursor: pointer;
+            border: 1px solid #2e2e2e;
+            transition: border ease-in-out 0.15s;
+        }
+    }
+}

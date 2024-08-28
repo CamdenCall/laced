@@ -1,0 +1,12 @@
+{
+    "name": "CubicCool",
+    "bio": "That is cool",
+    "premium": false,
+    "widgets": {
+        "discord": {"enabled": true, "userID": 915066315499270194},
+        "spotify": {"enabled": true, "songUrl": "https://open.spotify.com/embed/track/2Jh1L9uRykHbTsS4da9FJd?utm_source=generator&theme=0"},
+        "time" : {"enabled": true, "timezone": "Central Time"},
+        "socials": {"enabled": true, "instagram": "test", "cool": "yeah", "nah": "test"}
+    },
+    "views": 0
+}

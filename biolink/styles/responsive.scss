@@ -1,0 +1,149 @@
+@media screen and (max-width: 935px) {
+    .card{
+        width: 500px;
+        margin: 0 auto;
+        .header{
+            flex-direction: column;
+            .user{
+                width: 100%;
+                max-width: none !important;
+            }
+        }
+        .widgets{
+            flex-direction: column !important;
+        }
+
+    }
+    .user-views {
+        right: 0px !important;
+        top: 0px !important;
+    }
+    .time-widget{
+        width: 100%;
+        max-width: none !important;
+    }
+
+    .socials-section .socials .social{
+        width: 100%;
+        max-width: none !important;
+    }
+    .spotify-container{
+        width: 100% !important;
+    }
+    .discord-widget{
+        background: var(--card-bg);
+        border-radius: 10px;
+        border: 1px solid var(--border);
+        width: 100%;
+        padding: 0px 10px;
+        .discord-connect {
+            z-index: 999 !important;
+        }
+        .discord {
+            background: transparent !important;
+            outline: none !important;
+            min-width: 0px !important;
+            flex-grow: 1;
+            padding: 10px 5px !important;
+        }
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .card{
+        width: 100%;
+        margin: 0 auto;
+        min-width: 0px;
+        box-sizing: border-box;
+        padding: 15px 20px !important;
+        .header{
+            flex-direction: column;
+            .user{
+                width: 100%;
+                max-width: none !important;
+            }
+        }
+        .widgets{
+            flex-direction: column !important;
+        }
+
+    }
+    .discord-widget{
+        padding: 0px;
+        .discord-connect {
+            display: none;
+        }
+        .discord {
+            background: transparent !important;
+            outline: none !important;
+            min-width: 0px !important;
+            flex-grow: 1;
+        }
+    }
+    .user-views {
+        right: 20px !important;
+        top: 15px !important;
+    }
+    .time-widget{
+        width: 100%;
+        max-width: none !important;
+    }
+
+    .socials-section .socials .social{
+        width: 100%;
+        max-width: none !important;
+    }
+    .socials-section .socials a {
+        min-width: 200px !important;
+    }
+    .spotify-container{
+        width: 100% !important;
+    }
+}
+@media screen and (max-width: 350px) {
+    .time-widget {
+        flex-direction: column;
+        gap: 5px;
+        height: 120px !important;
+        max-height: 1000px !important;
+        padding: 10px 15px !important;
+        align-items: start !important;
+        .timezone {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px !important;
+            img {
+                display: none;
+            }
+            p {
+                font-size: 16px;
+                letter-spacing: -0.8px;
+            }
+            #timezone {
+                color: #595959;
+            }
+            .time-info{
+                display: flex;
+                flex-direction: row !important;
+                align-items: flex-start;
+                column-gap: 15px !important;
+                svg {
+                    display: none;
+                }
+
+            }
+        }
+    }
+    .user {
+        position: relative;
+        .user-views {
+            position: absolute;
+            left: 0px !important;
+            right: 0px !important;
+            top: -40px !important;
+            width: 61px;
+        }
+    }
+
+}
