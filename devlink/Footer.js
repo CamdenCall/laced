@@ -32,7 +32,7 @@ export function Footer({ as: _Component = _Builtin.Section }) {
               width="auto"
               height="auto"
               alt=""
-              src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/65cac4ef1e320edf23a0f5af_logo.svg"
+              src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/65cac4ef1e320edf23a0f5af_logo.svg"
             />
             <_Builtin.Block
               className={_utils.cx(_styles, "text-block")}
@@ -47,7 +47,7 @@ export function Footer({ as: _Component = _Builtin.Section }) {
               width="auto"
               height="auto"
               alt=""
-              src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/664ad805b087f68a22720dec_bullet.svg"
+              src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/664ad805b087f68a22720dec_bullet.svg"
             />
             <_Builtin.Paragraph
               className={_utils.cx(_styles, "paragraph", "white")}

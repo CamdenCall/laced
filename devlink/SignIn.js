@@ -1,23 +1,10 @@
 "use client";
-import React, {useState} from "react";
+import React from "react";
 import * as _Builtin from "./_Builtin";
 import * as _utils from "./utils";
 import _styles from "./SignIn.module.css";
-import Axios from 'axios'
 
 export function SignIn({ as: _Component = _Builtin.Section }) {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
-
-  const signIn = (event) => {
-    event.preventDefault();
-    Axios.post('http://localhost:3001/sign-in', {email, password}, { withCredentials: true }).then((response) => {
-        console.log(response);
-      })
-      .catch((error) => {
-        console.error("There was an error signing in!", error);
-      });
-    }
   return (
     <_Component
       className={_utils.cx(_styles, "signup")}
@@ -33,8 +20,15 @@ export function SignIn({ as: _Component = _Builtin.Section }) {
         {"Sign In"}
         <br />
       </_Builtin.Heading>
-      <form className="SignIn_guest-form__YV6jh">
-      <_Builtin.FormTextInput
+      <_Builtin.FormWrapper className={_utils.cx(_styles, "sign-in")}>
+        <_Builtin.FormForm
+          className={_utils.cx(_styles, "guest-form")}
+          name="wf-form-signIn"
+          data-name="signIn"
+          method="get"
+          id="wf-form-signIn"
+        >
+          <_Builtin.FormTextInput
             className={_utils.cx(_styles, "text-field")}
             name="email"
             maxLength={256}
@@ -44,8 +38,7 @@ export function SignIn({ as: _Component = _Builtin.Section }) {
             type="text"
             required={true}
             autoFocus={false}
-            id="email"
-            onChange={(e) => setEmail(e.target.value)}
+            id="signinEmail"
           />
           <_Builtin.FormTextInput
             className={_utils.cx(_styles, "text-field")}
@@ -57,11 +50,35 @@ export function SignIn({ as: _Component = _Builtin.Section }) {
             type="password"
             required={true}
             autoFocus={false}
-            id="password"
-            onChange={(e) => setPassword(e.target.value)}
+            id="signinPassword"
           />
-          <button className="SignIn_gradient-button__g4sPk w-button" onClick={signIn}> Sign In</button>
-      </form>
+          <_Builtin.Link
+            className={_utils.cx(_styles, "gradient-button")}
+            button={true}
+            block=""
+            options={{
+              href: "#",
+            }}
+          >
+            {"Sign In"}
+          </_Builtin.Link>
+          <_Builtin.Block className={_utils.cx(_styles, "alert")} tag="div">
+            <_Builtin.Block className={_utils.cx(_styles, "_14-reg")} tag="div">
+              {"Link name is not available, please choose another"}
+            </_Builtin.Block>
+          </_Builtin.Block>
+        </_Builtin.FormForm>
+        <_Builtin.FormSuccessMessage>
+          <_Builtin.Block tag="div">
+            {"Thank you! Your submission has been received!"}
+          </_Builtin.Block>
+        </_Builtin.FormSuccessMessage>
+        <_Builtin.FormErrorMessage>
+          <_Builtin.Block tag="div">
+            {"Oops! Something went wrong while submitting the form."}
+          </_Builtin.Block>
+        </_Builtin.FormErrorMessage>
+      </_Builtin.FormWrapper>
     </_Component>
   );
 }

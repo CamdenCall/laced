@@ -33,7 +33,7 @@ export function Discord({ as: _Component = _Builtin.Section }) {
               width="auto"
               height="auto"
               alt=""
-              src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/65d62766210ecc730a9458b0_discord-logo.svg"
+              src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/65d62766210ecc730a9458b0_discord-logo.svg"
             />
             <_Builtin.Heading
               className={_utils.cx(_styles, "section-header")}

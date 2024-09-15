@@ -53,7 +53,7 @@ export function WidgetsTab({ as: _Component = _Builtin.Section }) {
                     width="auto"
                     height="auto"
                     alt=""
-                    src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/666de3b53eeb9ea1ad060922_socials.svg"
+                    src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/666de3b53eeb9ea1ad060922_socials.svg"
                   />
                   <_Builtin.Block
                     className={_utils.cx(_styles, "_18-reg", "no-wrap")}
@@ -83,7 +83,7 @@ export function WidgetsTab({ as: _Component = _Builtin.Section }) {
                       width="Auto"
                       height="auto"
                       alt=""
-                      src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/666a4f9035c1672d30330d45_checkmark.svg"
+                      src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/666a4f9035c1672d30330d45_checkmark.svg"
                     />
                   </_Builtin.Block>
                   <_Builtin.Block
@@ -97,7 +97,7 @@ export function WidgetsTab({ as: _Component = _Builtin.Section }) {
                       width="auto"
                       height="auto"
                       alt=""
-                      src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/666a505df9f1762bb13fe0a2_checkmark-black.svg"
+                      src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/666a505df9f1762bb13fe0a2_checkmark-black.svg"
                     />
                   </_Builtin.Block>
                 </_Builtin.Block>
@@ -116,7 +116,7 @@ export function WidgetsTab({ as: _Component = _Builtin.Section }) {
                   width="auto"
                   height="auto"
                   alt=""
-                  src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/666de4bf55737009c422a8d8_dropdown-white.svg"
+                  src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/666de4bf55737009c422a8d8_dropdown-white.svg"
                 />
               </_Builtin.Block>
               <_Builtin.Block
@@ -159,7 +159,7 @@ export function WidgetsTab({ as: _Component = _Builtin.Section }) {
                             height="auto"
                             loading="lazy"
                             alt=""
-                            src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/666e8cd351ada6549e2f408a_instagram.svg"
+                            src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/666e8cd351ada6549e2f408a_instagram.svg"
                           />
                           <_Builtin.Block
                             className={_utils.cx(_styles, "_16-reg")}
@@ -181,7 +181,7 @@ export function WidgetsTab({ as: _Component = _Builtin.Section }) {
                             height="auto"
                             loading="lazy"
                             alt=""
-                            src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/666e8cd351ada6549e2f408a_instagram.svg"
+                            src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/666e8cd351ada6549e2f408a_instagram.svg"
                           />
                           <_Builtin.Block
                             className={_utils.cx(_styles, "_16-reg")}
@@ -203,7 +203,7 @@ export function WidgetsTab({ as: _Component = _Builtin.Section }) {
                             height="auto"
                             loading="lazy"
                             alt=""
-                            src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/666e8cd351ada6549e2f408a_instagram.svg"
+                            src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/666e8cd351ada6549e2f408a_instagram.svg"
                           />
                           <_Builtin.Block
                             className={_utils.cx(_styles, "_16-reg")}
@@ -225,7 +225,7 @@ export function WidgetsTab({ as: _Component = _Builtin.Section }) {
                             height="auto"
                             loading="lazy"
                             alt=""
-                            src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/666e8cd351ada6549e2f408a_instagram.svg"
+                            src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/666e8cd351ada6549e2f408a_instagram.svg"
                           />
                           <_Builtin.Block
                             className={_utils.cx(_styles, "_16-reg")}
@@ -247,7 +247,7 @@ export function WidgetsTab({ as: _Component = _Builtin.Section }) {
                             height="auto"
                             loading="lazy"
                             alt=""
-                            src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/666e8cd351ada6549e2f408a_instagram.svg"
+                            src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/666e8cd351ada6549e2f408a_instagram.svg"
                           />
                           <_Builtin.Block
                             className={_utils.cx(_styles, "_16-reg")}
@@ -266,7 +266,7 @@ export function WidgetsTab({ as: _Component = _Builtin.Section }) {
                           height="auto"
                           loading="lazy"
                           alt=""
-                          src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/666e8cd351ada6549e2f408a_instagram.svg"
+                          src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/666e8cd351ada6549e2f408a_instagram.svg"
                         />
                         <_Builtin.Block
                           className={_utils.cx(_styles, "_16-reg")}
@@ -281,7 +281,7 @@ export function WidgetsTab({ as: _Component = _Builtin.Section }) {
                         height="auto"
                         loading="lazy"
                         alt=""
-                        src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/665429542603030ef3ee3668_dropdown.svg"
+                        src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/665429542603030ef3ee3668_dropdown.svg"
                       />
                     </_Builtin.Block>
                     <_Builtin.FormTextInput
@@ -305,7 +305,7 @@ export function WidgetsTab({ as: _Component = _Builtin.Section }) {
                         width="auto"
                         height="auto"
                         alt=""
-                        src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/666fb3297e95efb563497670_plus.svg"
+                        src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/666fb3297e95efb563497670_plus.svg"
                       />
                       <_Builtin.Block
                         className={_utils.cx(_styles, "_16-reg")}
@@ -338,7 +338,7 @@ export function WidgetsTab({ as: _Component = _Builtin.Section }) {
                   >
                     <_Builtin.Block
                       className={_utils.cx(_styles, "social-dropdown")}
-                      data-w-id="4122e16a-7c24-ef73-a919-91819ff2adef"
+                      data-w-id="a19622c2-015e-588f-b37c-0dd3f67ef350"
                       tag="div"
                     >
                       <_Builtin.Block
@@ -358,7 +358,7 @@ export function WidgetsTab({ as: _Component = _Builtin.Section }) {
                             height="auto"
                             loading="lazy"
                             alt=""
-                            src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/666e8cd351ada6549e2f408a_instagram.svg"
+                            src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/666e8cd351ada6549e2f408a_instagram.svg"
                           />
                           <_Builtin.Block
                             className={_utils.cx(_styles, "_16-reg")}
@@ -380,7 +380,7 @@ export function WidgetsTab({ as: _Component = _Builtin.Section }) {
                             height="auto"
                             loading="lazy"
                             alt=""
-                            src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/666e8cd351ada6549e2f408a_instagram.svg"
+                            src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/666e8cd351ada6549e2f408a_instagram.svg"
                           />
                           <_Builtin.Block
                             className={_utils.cx(_styles, "_16-reg")}
@@ -402,7 +402,7 @@ export function WidgetsTab({ as: _Component = _Builtin.Section }) {
                             height="auto"
                             loading="lazy"
                             alt=""
-                            src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/666e8cd351ada6549e2f408a_instagram.svg"
+                            src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/666e8cd351ada6549e2f408a_instagram.svg"
                           />
                           <_Builtin.Block
                             className={_utils.cx(_styles, "_16-reg")}
@@ -421,7 +421,7 @@ export function WidgetsTab({ as: _Component = _Builtin.Section }) {
                           height="auto"
                           loading="lazy"
                           alt=""
-                          src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/666e8cd351ada6549e2f408a_instagram.svg"
+                          src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/666e8cd351ada6549e2f408a_instagram.svg"
                         />
                         <_Builtin.Block
                           className={_utils.cx(_styles, "_16-reg")}
@@ -436,7 +436,7 @@ export function WidgetsTab({ as: _Component = _Builtin.Section }) {
                         height="auto"
                         loading="lazy"
                         alt=""
-                        src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/665429542603030ef3ee3668_dropdown.svg"
+                        src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/665429542603030ef3ee3668_dropdown.svg"
                       />
                     </_Builtin.Block>
                     <_Builtin.FormTextInput
@@ -500,7 +500,7 @@ export function WidgetsTab({ as: _Component = _Builtin.Section }) {
                     width="auto"
                     height="auto"
                     alt=""
-                    src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/666fca640a6b172e1bdbc92a_discord.svg"
+                    src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/666fca640a6b172e1bdbc92a_discord.svg"
                   />
                   <_Builtin.Block
                     className={_utils.cx(_styles, "_18-reg", "no-wrap")}
@@ -530,7 +530,7 @@ export function WidgetsTab({ as: _Component = _Builtin.Section }) {
                       width="Auto"
                       height="auto"
                       alt=""
-                      src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/666a4f9035c1672d30330d45_checkmark.svg"
+                      src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/666a4f9035c1672d30330d45_checkmark.svg"
                     />
                   </_Builtin.Block>
                   <_Builtin.Block
@@ -544,7 +544,7 @@ export function WidgetsTab({ as: _Component = _Builtin.Section }) {
                       width="auto"
                       height="auto"
                       alt=""
-                      src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/666a505df9f1762bb13fe0a2_checkmark-black.svg"
+                      src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/666a505df9f1762bb13fe0a2_checkmark-black.svg"
                     />
                   </_Builtin.Block>
                 </_Builtin.Block>
@@ -563,7 +563,7 @@ export function WidgetsTab({ as: _Component = _Builtin.Section }) {
                   width="auto"
                   height="auto"
                   alt=""
-                  src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/666de4bf55737009c422a8d8_dropdown-white.svg"
+                  src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/666de4bf55737009c422a8d8_dropdown-white.svg"
                 />
               </_Builtin.Block>
               <_Builtin.Block
@@ -645,7 +645,7 @@ export function WidgetsTab({ as: _Component = _Builtin.Section }) {
                     width="auto"
                     height="auto"
                     alt=""
-                    src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/666fc8c992d5645c0eae6ccf_time.svg"
+                    src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/666fc8c992d5645c0eae6ccf_time.svg"
                   />
                   <_Builtin.Block
                     className={_utils.cx(_styles, "_18-reg", "no-wrap")}
@@ -675,7 +675,7 @@ export function WidgetsTab({ as: _Component = _Builtin.Section }) {
                       width="Auto"
                       height="auto"
                       alt=""
-                      src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/666a4f9035c1672d30330d45_checkmark.svg"
+                      src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/666a4f9035c1672d30330d45_checkmark.svg"
                     />
                   </_Builtin.Block>
                   <_Builtin.Block
@@ -689,7 +689,7 @@ export function WidgetsTab({ as: _Component = _Builtin.Section }) {
                       width="auto"
                       height="auto"
                       alt=""
-                      src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/666a505df9f1762bb13fe0a2_checkmark-black.svg"
+                      src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/666a505df9f1762bb13fe0a2_checkmark-black.svg"
                     />
                   </_Builtin.Block>
                 </_Builtin.Block>
@@ -708,7 +708,7 @@ export function WidgetsTab({ as: _Component = _Builtin.Section }) {
                   width="auto"
                   height="auto"
                   alt=""
-                  src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/666de4bf55737009c422a8d8_dropdown-white.svg"
+                  src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/666de4bf55737009c422a8d8_dropdown-white.svg"
                 />
               </_Builtin.Block>
               <_Builtin.Block
@@ -752,7 +752,7 @@ export function WidgetsTab({ as: _Component = _Builtin.Section }) {
                         height="auto"
                         loading="lazy"
                         alt=""
-                        src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/665429542603030ef3ee3668_dropdown.svg"
+                        src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/665429542603030ef3ee3668_dropdown.svg"
                       />
                       <_Builtin.Block
                         className={_utils.cx(_styles, "dropdown-time")}

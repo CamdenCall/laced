@@ -26,7 +26,7 @@ export function DashboardNavMobile({ as: _Component = _Builtin.Section }) {
           width="45"
           height="auto"
           alt=""
-          src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/65cac4ef1e320edf23a0f5af_logo.svg"
+          src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/65cac4ef1e320edf23a0f5af_logo.svg"
         />
         <_Builtin.Block className={_utils.cx(_styles, "_16-reg")} tag="div">
           {"Laced.bio"}
@@ -44,7 +44,7 @@ export function DashboardNavMobile({ as: _Component = _Builtin.Section }) {
             width="auto"
             height="auto"
             alt=""
-            src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/664d7983dd3fa2a634fc4c9c_Open.svg"
+            src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/664d7983dd3fa2a634fc4c9c_Open.svg"
           />
           <_Builtin.Image
             className={_utils.cx(_styles, "menu-back")}
@@ -52,7 +52,7 @@ export function DashboardNavMobile({ as: _Component = _Builtin.Section }) {
             width="auto"
             height="auto"
             alt=""
-            src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/664d79dfb263bf87c3a3221b_Close.svg"
+            src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/664d79dfb263bf87c3a3221b_Close.svg"
           />
         </_Builtin.Block>
         <_Builtin.Block
@@ -74,7 +74,7 @@ export function DashboardNavMobile({ as: _Component = _Builtin.Section }) {
                 width="auto"
                 height="auto"
                 alt=""
-                src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/664fb6f0bf0df3a983ac63fe_dashboard-icon.svg"
+                src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/664fb6f0bf0df3a983ac63fe_dashboard-icon.svg"
               />
               <_Builtin.Block
                 className={_utils.cx(_styles, "tab-name")}
@@ -102,7 +102,7 @@ export function DashboardNavMobile({ as: _Component = _Builtin.Section }) {
                     width="auto"
                     height="auto"
                     alt=""
-                    src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/664fb6f173963984bb2475a7_bio-link-icon.svg"
+                    src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/664fb6f173963984bb2475a7_bio-link-icon.svg"
                   />
                   <_Builtin.Block
                     className={_utils.cx(_styles, "tab-name")}
@@ -117,7 +117,7 @@ export function DashboardNavMobile({ as: _Component = _Builtin.Section }) {
                   width="auto"
                   height="auto"
                   alt=""
-                  src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/665429542603030ef3ee3668_dropdown.svg"
+                  src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/665429542603030ef3ee3668_dropdown.svg"
                 />
               </_Builtin.Block>
               <_Builtin.Block
@@ -137,7 +137,7 @@ export function DashboardNavMobile({ as: _Component = _Builtin.Section }) {
                     width="15"
                     height="auto"
                     alt=""
-                    src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/66542dae32d74607a6944099_manage.svg"
+                    src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/66542dae32d74607a6944099_manage.svg"
                   />
                   <_Builtin.Block
                     className={_utils.cx(_styles, "tab-name")}
@@ -159,7 +159,7 @@ export function DashboardNavMobile({ as: _Component = _Builtin.Section }) {
                     width="15"
                     height="auto"
                     alt=""
-                    src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/65d43776ea20de5cb166f2b1_premium-badge.svg"
+                    src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/65d43776ea20de5cb166f2b1_premium-badge.svg"
                   />
                   <_Builtin.Block
                     className={_utils.cx(_styles, "tab-name")}
@@ -184,7 +184,7 @@ export function DashboardNavMobile({ as: _Component = _Builtin.Section }) {
                 width="auto"
                 height="auto"
                 alt=""
-                src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/664fb80d68aeb6f3bb66c2dc_widges-icon.svg"
+                src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/664fb80d68aeb6f3bb66c2dc_widges-icon.svg"
               />
               <_Builtin.Block
                 className={_utils.cx(_styles, "tab-name")}
@@ -207,7 +207,7 @@ export function DashboardNavMobile({ as: _Component = _Builtin.Section }) {
                 width="auto"
                 height="auto"
                 alt=""
-                src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/664fb6f07c162ee164067405_settings-icon.svg"
+                src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/664fb6f07c162ee164067405_settings-icon.svg"
               />
               <_Builtin.Block
                 className={_utils.cx(_styles, "tab-name")}

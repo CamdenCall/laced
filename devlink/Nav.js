@@ -21,7 +21,7 @@ export function Nav({ as: _Component = _Builtin.Block }) {
           width="auto"
           height="auto"
           alt=""
-          src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/65cac4ef1e320edf23a0f5af_logo.svg"
+          src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/65cac4ef1e320edf23a0f5af_logo.svg"
         />
         <_Builtin.Block className={_utils.cx(_styles, "text-block")} tag="div">
           {"Laced.bio"}
@@ -39,7 +39,7 @@ export function Nav({ as: _Component = _Builtin.Block }) {
             width="auto"
             height="auto"
             alt=""
-            src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/664d7983dd3fa2a634fc4c9c_Open.svg"
+            src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/664d7983dd3fa2a634fc4c9c_Open.svg"
           />
           <_Builtin.Image
             className={_utils.cx(_styles, "menu-back")}
@@ -47,7 +47,7 @@ export function Nav({ as: _Component = _Builtin.Block }) {
             width="auto"
             height="auto"
             alt=""
-            src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/664d79dfb263bf87c3a3221b_Close.svg"
+            src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/664d79dfb263bf87c3a3221b_Close.svg"
           />
         </_Builtin.Block>
         <_Builtin.Block

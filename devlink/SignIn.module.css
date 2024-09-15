@@ -170,38 +170,38 @@
 
 .alert {
   display: none;
-  padding-top: 15px;
+  padding-top: 10px;
   padding-left: 5px;
   justify-content: center;
   align-items: center;
 }
 
-._16-reg {
+._14-reg {
   margin-bottom: 0px;
   font-family: 'Space Grotesk';
   color: var(--white);
-  font-size: 16px;
+  font-size: 14px;
   line-height: 25px;
 }
 
 @media screen and (max-width: 767px) {
-  ._16-reg {
+  ._14-reg {
     flex: 0 0 auto;
   }
 }
 
-._16-reg.center {
+._14-reg.center {
   text-align: center;
 }
 
-._16-reg.tall {
+._14-reg.tall {
   line-height: 35px;
 }
 
-._16-reg.white {
+._14-reg.white {
   color: var(--white);
 }
 
-._16-reg.no-wrap {
+._14-reg.no-wrap {
   flex: 0 0 auto;
 }

@@ -20,9 +20,10 @@ const data = [
 
 function CustomTooltip({ payload, label, active }) {
   if (active) {
+    console.log(payload[0])
     return (
       <div className="tooltip">
-        <p className="label">{`${label} : ${payload[0].value}`}</p>
+        <p className="label">{`${payload[0].payload.name}: ${payload[0].value}`}</p>
       </div>
     );
   }
@@ -35,23 +36,22 @@ const Chart = () => {
     <div className="chart">
       <ResponsiveContainer width="100%" height="100%" aspect={2 / 1}>
         <AreaChart
-          width={730}
+          width={100}
           height={250}
           data={data}
           margin={{ top: 0, right: 5, left: 5, bottom: 0 }}
         >
           <defs>
             <linearGradient id="total" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="5%" stopColor="#8884d8" stopOpacity={0.8} />
-              <stop offset="95%" stopColor="#8884d8" stopOpacity={0} />
+              <stop offset="25%" stopColor="#6763FF" stopOpacity={0.9} />
+              <stop offset="100%" stopColor="#8AE4FF" stopOpacity={0.0} />
             </linearGradient>
           </defs>
-          <XAxis dataKey="name" stroke="rgba(255,255,255,0.15)" />
           <Tooltip content={<CustomTooltip />}/>
           <Area
             type="monotone"
             dataKey="Total"
-            stroke="#8884d8"
+            stroke="#8AE4FF"
             fillOpacity={1}
             fill="url(#total)"
           />

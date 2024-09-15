@@ -53,7 +53,7 @@ export function Pricing({ as: _Component = _Builtin.Section }) {
                   width="auto"
                   height="auto"
                   alt=""
-                  src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/65d43776ea20de5cb166f2b1_premium-badge.svg"
+                  src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/65d43776ea20de5cb166f2b1_premium-badge.svg"
                 />
                 <_Builtin.Heading
                   className={_utils.cx(_styles, "sub-header")}
@@ -94,7 +94,7 @@ export function Pricing({ as: _Component = _Builtin.Section }) {
                 width="auto"
                 height="auto"
                 alt=""
-                src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/65caf2be50d323fd549b82e3_checkmark.svg"
+                src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/65caf2be50d323fd549b82e3_checkmark.svg"
               />
               <_Builtin.Paragraph className={_utils.cx(_styles, "_16-reg")}>
                 {"All Starter Features"}
@@ -109,7 +109,7 @@ export function Pricing({ as: _Component = _Builtin.Section }) {
                 width="auto"
                 height="auto"
                 alt=""
-                src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/65caf2be50d323fd549b82e3_checkmark.svg"
+                src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/65caf2be50d323fd549b82e3_checkmark.svg"
               />
               <_Builtin.Paragraph className={_utils.cx(_styles, "_16-reg")}>
                 {"Unlimited Features"}
@@ -124,7 +124,7 @@ export function Pricing({ as: _Component = _Builtin.Section }) {
                 width="auto"
                 height="auto"
                 alt=""
-                src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/65caf2be50d323fd549b82e3_checkmark.svg"
+                src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/65caf2be50d323fd549b82e3_checkmark.svg"
               />
               <_Builtin.Paragraph className={_utils.cx(_styles, "_16-reg")}>
                 {"Background Video"}
@@ -139,7 +139,7 @@ export function Pricing({ as: _Component = _Builtin.Section }) {
                 width="auto"
                 height="auto"
                 alt=""
-                src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/65caf2be50d323fd549b82e3_checkmark.svg"
+                src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/65caf2be50d323fd549b82e3_checkmark.svg"
               />
               <_Builtin.Paragraph className={_utils.cx(_styles, "_16-reg")}>
                 {"Background Music"}
@@ -154,7 +154,7 @@ export function Pricing({ as: _Component = _Builtin.Section }) {
                 width="auto"
                 height="auto"
                 alt=""
-                src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/65caf2be50d323fd549b82e3_checkmark.svg"
+                src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/65caf2be50d323fd549b82e3_checkmark.svg"
               />
               <_Builtin.Paragraph className={_utils.cx(_styles, "_16-reg")}>
                 {"Custom Colors"}
@@ -169,7 +169,7 @@ export function Pricing({ as: _Component = _Builtin.Section }) {
                 width="auto"
                 height="auto"
                 alt=""
-                src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/65caf2be50d323fd549b82e3_checkmark.svg"
+                src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/65caf2be50d323fd549b82e3_checkmark.svg"
               />
               <_Builtin.Paragraph className={_utils.cx(_styles, "_16-reg")}>
                 {"Special Effects"}
@@ -184,7 +184,7 @@ export function Pricing({ as: _Component = _Builtin.Section }) {
                 width="auto"
                 height="auto"
                 alt=""
-                src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/65caf2be50d323fd549b82e3_checkmark.svg"
+                src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/65caf2be50d323fd549b82e3_checkmark.svg"
               />
               <_Builtin.Paragraph className={_utils.cx(_styles, "_16-reg")}>
                 {"Premium Badge"}
@@ -199,7 +199,7 @@ export function Pricing({ as: _Component = _Builtin.Section }) {
                 width="auto"
                 height="auto"
                 alt=""
-                src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/65caf2be50d323fd549b82e3_checkmark.svg"
+                src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/65caf2be50d323fd549b82e3_checkmark.svg"
               />
               <_Builtin.Paragraph className={_utils.cx(_styles, "_16-reg")}>
                 {"All New Features"}
@@ -270,7 +270,7 @@ export function Pricing({ as: _Component = _Builtin.Section }) {
                 width="auto"
                 height="auto"
                 alt=""
-                src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/65d567c933fae7f17c0d96bc_blank-checkmark.svg"
+                src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/65d567c933fae7f17c0d96bc_blank-checkmark.svg"
               />
               <_Builtin.Paragraph className={_utils.cx(_styles, "_16-reg")}>
                 {"5 Socials"}
@@ -285,7 +285,7 @@ export function Pricing({ as: _Component = _Builtin.Section }) {
                 width="auto"
                 height="auto"
                 alt=""
-                src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/65d567c933fae7f17c0d96bc_blank-checkmark.svg"
+                src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/65d567c933fae7f17c0d96bc_blank-checkmark.svg"
               />
               <_Builtin.Paragraph className={_utils.cx(_styles, "_16-reg")}>
                 {"Profile Picture"}
@@ -300,7 +300,7 @@ export function Pricing({ as: _Component = _Builtin.Section }) {
                 width="auto"
                 height="auto"
                 alt=""
-                src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/65d567c933fae7f17c0d96bc_blank-checkmark.svg"
+                src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/65d567c933fae7f17c0d96bc_blank-checkmark.svg"
               />
               <_Builtin.Paragraph className={_utils.cx(_styles, "_16-reg")}>
                 {"Bio"}
@@ -315,7 +315,7 @@ export function Pricing({ as: _Component = _Builtin.Section }) {
                 width="auto"
                 height="auto"
                 alt=""
-                src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/65d567c933fae7f17c0d96bc_blank-checkmark.svg"
+                src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/65d567c933fae7f17c0d96bc_blank-checkmark.svg"
               />
               <_Builtin.Paragraph className={_utils.cx(_styles, "_16-reg")}>
                 {"Background Image"}

@@ -46,7 +46,7 @@ export function BiolinkTab({ as: _Component = _Builtin.Section }) {
             width="auto"
             height="auto"
             alt=""
-            src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/6650d8d7d89a1114e17d33d7_open-link.svg"
+            src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/6650d8d7d89a1114e17d33d7_open-link.svg"
           />
         </_Builtin.Link>
       </_Builtin.Block>

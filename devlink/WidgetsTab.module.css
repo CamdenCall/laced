@@ -1,5 +1,5 @@
 .widgetstab {
-  display: flex;
+  display: none;
   padding: 35px 50px;
   flex-direction: column;
   flex-wrap: nowrap;

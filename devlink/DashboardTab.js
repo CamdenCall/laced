@@ -46,7 +46,7 @@ export function DashboardTab({ as: _Component = _Builtin.Section, user}) {
           id="openLink"
           block="inline"
           options={{
-            href: "#",
+            href: user.link,
           }}
         >
           <_Builtin.Block className={_utils.cx(_styles, "_16-reg")} tag="div">
@@ -57,7 +57,7 @@ export function DashboardTab({ as: _Component = _Builtin.Section, user}) {
             width="auto"
             height="auto"
             alt=""
-            src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/6650d8d7d89a1114e17d33d7_open-link.svg"
+            src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/6650d8d7d89a1114e17d33d7_open-link.svg"
           />
         </_Builtin.Link>
       </_Builtin.Block>
@@ -65,10 +65,6 @@ export function DashboardTab({ as: _Component = _Builtin.Section, user}) {
         className={_utils.cx(_styles, "dashboard-main")}
         tag="div"
       >
-
-
-
-
         <_Builtin.Block className={_utils.cx(_styles, "link-views")} tag="div">
           <_Builtin.Block
             className={_utils.cx(_styles, "view-header")}
@@ -86,14 +82,14 @@ export function DashboardTab({ as: _Component = _Builtin.Section, user}) {
                 width="auto"
                 height="auto"
                 alt=""
-                src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/6652d38a077542f98c3fc3dd_views-icon.svg"
+                src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/6652d38a077542f98c3fc3dd_views-icon.svg"
               />
               <_Builtin.Block
                 className={_utils.cx(_styles, "_16-reg")}
                 tag="div"
                 id="views"
               >
-                {"000"}
+                {linkData.views}
               </_Builtin.Block>
             </_Builtin.Block>
           </_Builtin.Block>

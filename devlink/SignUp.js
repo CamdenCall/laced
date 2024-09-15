@@ -1,45 +1,10 @@
 "use client";
-import React, {useState} from "react";
+import React from "react";
 import * as _Builtin from "./_Builtin";
 import * as _utils from "./utils";
 import _styles from "./SignUp.module.css";
-import Axios from 'axios'
 
 export function SignUp({ as: _Component = _Builtin.Section }) {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
-  const [link, setLink] = useState('');
-  const [error, setError] = useState('');
-
-  const signUp = (event) => {
-    event.preventDefault();
-    if (!email.includes("@")) {
-      setError("Please Use A Valid Email")
-      document.getElementById("alert").style.display = "block"
-    } else if (password.length == 0) {
-      setError("Please Input A Password")
-      document.getElementById("alert").style.display = "block"
-    } else if (password.length < 4) {
-      setError("Password Must Be At Least 4 Characters")
-      document.getElementById("alert").style.display = "block"
-    } else if (link.length == 0) {
-      setError("Please Input Link Name")
-      document.getElementById("alert").style.display = "block"
-    }
-    else {
-      Axios.post('http://localhost:3001/sign-up', {email, password, link}).then((response) => {
-          console.log(email, password);
-          console.log(response);
-        })
-        .catch((error) => {
-          console.error("There was an error signing in!", error);
-          if (error.response && error.response.status === 400) {
-            setError(error.response.data.message);
-            document.getElementById("alert").style.display = "block";
-          }
-        });
-      }
-    }
   return (
     <_Component
       className={_utils.cx(_styles, "signup")}
@@ -74,7 +39,6 @@ export function SignUp({ as: _Component = _Builtin.Section }) {
             required={true}
             autoFocus={false}
             id="signupEmail"
-            onChange={(e) => setEmail(e.target.value)}
           />
           <_Builtin.FormTextInput
             className={_utils.cx(_styles, "text-field")}
@@ -87,7 +51,6 @@ export function SignUp({ as: _Component = _Builtin.Section }) {
             required={true}
             autoFocus={false}
             id="signupPassword"
-            onChange={(e) => setPassword(e.target.value)}
           />
           <_Builtin.Block className={_utils.cx(_styles, "link-slug")} tag="div">
             <_Builtin.Block
@@ -112,13 +75,21 @@ export function SignUp({ as: _Component = _Builtin.Section }) {
               required={true}
               autoFocus={false}
               id="signupSlug"
-              onChange={(e) => setLink(e.target.value)}
             />
           </_Builtin.Block>
-          <button className="SignUp_gradient-button__LteER w-button" onClick={signUp}> Sign Up</button>
-          <_Builtin.Block className={_utils.cx(_styles, "alert")} tag="div" id="alert">
-            <_Builtin.Block className={_utils.cx(_styles, "_14-reg")} tag="div">
-              {error}
+          <_Builtin.Link
+            className={_utils.cx(_styles, "gradient-button")}
+            button={true}
+            block=""
+            options={{
+              href: "#",
+            }}
+          >
+            {"Sign Up"}
+          </_Builtin.Link>
+          <_Builtin.Block className={_utils.cx(_styles, "alert")} tag="div">
+            <_Builtin.Block className={_utils.cx(_styles, "_16-reg")} tag="div">
+              {"Link name is not available, please choose another"}
             </_Builtin.Block>
           </_Builtin.Block>
         </_Builtin.FormForm>

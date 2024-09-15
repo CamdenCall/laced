@@ -211,13 +211,6 @@
   font-size: 16px;
   line-height: 25px;
 }
-._14-reg {
-  margin-bottom: 0px;
-  font-family: 'Space Grotesk';
-  color: var(--white);
-  font-size: 14px;
-  line-height: 25px;
-}
 
 @media screen and (max-width: 767px) {
   ._16-reg {

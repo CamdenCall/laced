@@ -35,7 +35,7 @@
 
 .nav-tabs {
   display: flex;
-  padding: 15px 20px;
+  padding: 25px 20px;
   flex-direction: column;
   flex-wrap: nowrap;
   grid-column-gap: 35px;

@@ -52,7 +52,7 @@ export function About({ as: _Component = _Builtin.Section }) {
           width="Auto"
           height="Auto"
           alt=""
-          src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/65cafb8e19c3e5172bedd161_social-preview.png"
+          src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/65cafb8e19c3e5172bedd161_social-preview.png"
         />
       </_Builtin.Block>
       <_Builtin.Block className={_utils.cx(_styles, "about-bottom")} tag="div">
@@ -70,7 +70,7 @@ export function About({ as: _Component = _Builtin.Section }) {
               width="auto"
               height="auto"
               alt=""
-              src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/65d283b406779376ff197546_link-tag.svg"
+              src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/65d283b406779376ff197546_link-tag.svg"
             />
             <_Builtin.Heading
               className={_utils.cx(_styles, "sub-header")}
@@ -96,7 +96,7 @@ export function About({ as: _Component = _Builtin.Section }) {
               width="auto"
               height="auto"
               alt=""
-              src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/65d283b417205756789ec1f7_profile.svg"
+              src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/65d283b417205756789ec1f7_profile.svg"
             />
             <_Builtin.Heading
               className={_utils.cx(_styles, "sub-header")}
@@ -124,7 +124,7 @@ export function About({ as: _Component = _Builtin.Section }) {
               width="auto"
               height="auto"
               alt=""
-              src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/65d283b43468e1a2dfd19ce8_socials.svg"
+              src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/65d283b43468e1a2dfd19ce8_socials.svg"
             />
             <_Builtin.Heading
               className={_utils.cx(_styles, "sub-header")}
@@ -150,7 +150,7 @@ export function About({ as: _Component = _Builtin.Section }) {
               width="auto"
               height="auto"
               alt=""
-              src="https://uploads-ssl.webflow.com/65cac36d42b7fd39d61e0220/65d283b4f3c28f44ab1843b8_widgets.svg"
+              src="https://cdn.prod.website-files.com/65cac36d42b7fd39d61e0220/65d283b4f3c28f44ab1843b8_widgets.svg"
             />
             <_Builtin.Heading
               className={_utils.cx(_styles, "sub-header")}
