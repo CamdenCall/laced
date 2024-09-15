@@ -1,5 +1,5 @@
 import Card from '../biolink/card'
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import '../biolink/styles/biolink.css'
 
 
