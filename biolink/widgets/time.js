@@ -20,7 +20,7 @@ const TimeWidget = ({ TimeZone, widgets, setWidgets }) => {
 
 
   return (
-    <div className='time-widget'>
+    <div className='time-widget mode'>
         <div className='timezone'>
         <div className='time-info'>
             <p>LOCAL TIME</p>

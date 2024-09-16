@@ -10,26 +10,26 @@ import axios from 'axios';
 
 const Card = () => {
     const discordWidget = false
-    const background = ""
-    const widgets = {
-        time: {
-            timezone: "Central Time"
-        },
-        spotify: {
-            test: "wow"
-        },
-        socials: {
-            instagram: "test",
-            cool: "test",
-            nah: "test"
-        }
-
-    };
     const [linkName, setLink] = useState("test");
     const [linkDataStr, setLinkData] = useState(null);
     const [message, setMessage] = useState('');
     const [error, setError] = useState('');
-    const linkData = linkDataStr ? JSON.parse(linkDataStr) : {};
+    //const linkData = linkDataStr ? JSON.parse(linkDataStr) : {};
+    const linkData = {
+        widgets: {
+            profile: {name: "CubicCool", bio: "That is cool", views: 10},
+            discord: {enabled: false, userID: 915066315499270194},
+            spotify: {enabled: true, songUrl: "https://open.spotify.com/embed/track/2Jh1L9uRykHbTsS4da9FJd?utm_source=generator&theme=0"},
+            time : {enabled: true, timezone: "Central Time"},
+            socials: {enabled: true, instagram: "test", "cool": "yeah", "nah": "test"}
+        },
+        style: {
+            background: "https://wallpapers-clan.com/wp-content/uploads/2023/11/captivating-total-black-abstract-wallpaper-scaled.jpg",
+            mode: ""
+        },
+        premium: false,
+    }
+    /*
     useEffect(() => {
         const fetchLinkData = async () => {
             try {
@@ -50,94 +50,47 @@ const Card = () => {
             fetchLinkData();
         }
     }, [linkName]);
-
-    useEffect(() => {
-        if (background !== '') {
-            document.body.style.backgroundImage = `url(${background})`;
-        }
-    }, [background]);
-    if (!linkDataStr) {
+        if (!linkDataStr) {
         return <div>Loading Bud...</div>
     }
+    */
+    useEffect(() => {
+        if (linkData.style.background !== '') {
+            document.body.style.backgroundImage = `url(${linkData.style.background})`;
+        }
+        if (linkData.style.mode == "dark") {
+            const elements = document.querySelectorAll('.mode');
+            elements.forEach(element => {
+              var name = element.className
+              if (name.includes("spotify")) {
+                element.classList.add('spotify-dark');
+              } else {
+                element.classList.add('dark');
+              }
+            });
+        }
+    });
     return (
-        <div className='card' custom-bg={background}>
-            {/* If  */}
-            { linkData.widgets.discord.enabled ? (
-                <div className='header'>
-                    <UserWidget linkData={linkData}/>
-                    <DiscordWidget userID="915066315499270194" />
-                </div>
-                ) : (
-                    <div className='header'>
-                        <UserWidget linkData={linkData}/>   
-                        {
-                            widgets.hasOwnProperty('time') ? (
-                                <TimeWidget TimeZone={widgets.time.timezone} />
-                                
-                            ) : widgets.hasOwnProperty("spotify")  ? (
-                                
-                                <SpotifyWidget songURL="https://open.spotify.com/embed/track/2Jh1L9uRykHbTsS4da9FJd?utm_source=generator&theme=0"/>
-                                
-                            ) : widgets.hasOwnProperty("socials")  (
-                                <SocialWidget socials={widgets.socials} />
-                            )
-                        }    
-                    </div>
-                )
-            }
-            {/* If  */}
-            {Object.keys(widgets).length > 1 && linkData.widgets.discord.enabled ? (
-                <div className="card-bottom multi-widget">
-                    {
-                        widgets.hasOwnProperty("socials") ? (
-                            <SocialWidget socials={widgets.socials} />
-                        ) : null
-                    }
-                    <div className='widgets'>
-                    {
-                        widgets.hasOwnProperty('time') && linkData.widgets.discord.enabled ? (
-                            <TimeWidget TimeZone={widgets.time.timezone} />
-                            
-                        ) : null
-                    }    
-                    {
-                        widgets.hasOwnProperty("spotify") && linkData.widgets.discord.enabled ? (
-                            <SpotifyWidget songURL="https://open.spotify.com/embed/track/2Jh1L9uRykHbTsS4da9FJd?utm_source=generator&theme=0"/>                            
-                        ) : null
-                    }
-                    </div>
-                </div>
-                ) : (
-                    <div className="card-bottom">
-                        { Object.keys(widgets).length < 3 && widgets.hasOwnProperty("socials") ? (
-                            null
-                            ) : (
-                                <div className='widgets'>
-                                    {
-                                        widgets.hasOwnProperty("time") && linkData.widgets.discord.enabled ? (
-                                            <TimeWidget TimeZone={widgets.time.timezone} />
-                                        ) : null
-                                    }    
-                                    {
-                                        widgets.hasOwnProperty("spotify") &&  widgets.hasOwnProperty("time") && !linkData.widgets.discord.enabled ? (
-                                            <SpotifyWidget songURL="https://open.spotify.com/embed/track/2Jh1L9uRykHbTsS4da9FJd?utm_source=generator&theme=0" />
-                                        ) : !widgets.hasOwnProperty("time") && linkData.widgets.discord.enabled ? (
-                                            <SpotifyWidget songURL="https://open.spotify.com/embed/track/2Jh1L9uRykHbTsS4da9FJd?utm_source=generator&theme=0" />
-                                        ) : null
-                                    }
-                                </div>
-                            )
-                        }
+        <div className='card'>
+            
+            <UserWidget linkData={linkData}/>
 
-                        {
-                            widgets.hasOwnProperty("socials") && Object.keys(widgets).length > 1 ? (
-                                <SocialWidget socials={widgets.socials} />
-                            ) : null
-                        }
-                    </div>
-                )
+            {linkData.widgets.discord.enabled && (
+                <DiscordWidget userID={linkData.widgets.discord.userID} />
+            )}
 
-            }
+            {linkData.widgets.time.enabled && (
+                <TimeWidget TimeZone={linkData.widgets.time.timezone} />
+            )}
+
+            {linkData.widgets.socials.enabled && (
+                <SocialWidget 
+                    socials={linkData.widgets.socials}
+                />
+            )}
+            {linkData.widgets.spotify.enabled && (
+                <SpotifyWidget songURL={linkData.widgets.spotify.songUrl} />
+            )}
 
         </div>
 

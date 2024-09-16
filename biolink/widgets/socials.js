@@ -11,9 +11,9 @@ const SocialWidget = ({ socials }) => {
             {Object.entries(socials).map(([platform, url]) => (
             
             <a href={url}>
-                <div className='social'>
+                <div className='social mode'>
                     <div>
-                        <img src="/images/socials/instagram.svg" />
+                        <img src="/images/socials/instagram.svg" height="35" />
                         {platform}
                     </div>
                     <img src="/images/link.svg" />

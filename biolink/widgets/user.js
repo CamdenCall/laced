@@ -6,7 +6,7 @@ import '../styles/responsive.scss'
 
 
 const UserWidget = (linkData) => {
-  const user = linkData.linkData
+  const user = linkData.linkData.widgets.profile
   return (
     <div className='user'>
         <div className='profile-container'>
@@ -16,7 +16,7 @@ const UserWidget = (linkData) => {
           <h1>{user.name}</h1>
           <p>{user.bio}</p>
         </div>
-        <div className='user-views'>
+        <div className='user-views mode'>
           <img src="/images/views-icon.svg"></img>
           <p>{user.views}</p>
         </div>

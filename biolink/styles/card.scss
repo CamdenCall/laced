@@ -1,16 +1,22 @@
 :root {
     --border: #202020;
     --card-bg: #060606;
+    --card-dark-border: rgba(255,255,255,0.1);
+    --card-dark-bg: rgba(0,0,0,0.5);
+    --card-light-bg: rgba(255,255,255,0.5);
+
 }
 
 
 .card {
     display: flex;
     max-width: 910px;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: flex-start;
     row-gap: 10px;
+    column-gap: 25px;
     align-self: stretch;
     position: relative;
     width: 100%;
@@ -44,6 +50,22 @@
         justify-content: space-between;
         .socials {
             flex-direction: row;
+        }
+    }
+    .dark {
+        background-color: var(--card-dark-bg) !important;
+        backdrop-filter: blur(20px) !important;
+        border: 1px solid var(--card-dark-border) !important;
+        transition: border 0.5s ease-in-out;
+        &:hover {
+            border: 1px solid rgba(255,255,255,0.2) !important;
+            transition: border 0.5s ease-in-out;
+        }
+    }
+    .spotify-dark {
+        background-color: transparent !important;
+        iframe {
+            backdrop-filter: blur(25px);
         }
     }
 
